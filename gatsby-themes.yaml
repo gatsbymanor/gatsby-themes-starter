@@ -1,0 +1,27 @@
+themesDirectory: themes
+themes:
+  gatsby-theme-identity:
+    build: true
+    develop: true
+    cms: contentful
+    query:
+    mappings:
+      displayName:
+        querySource:
+        field:
+      copyright:
+        querySource:
+        field:
+      headline:
+        querySource:
+        field:
+      displayPhoto:
+        querySource:
+        field:
+      socialIcons:
+        querySource:
+        field:
+      backgroundImage:
+        querySource:
+        field:
+    styles:
