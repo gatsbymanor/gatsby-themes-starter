@@ -1,0 +1,33 @@
+{
+ "build": true,
+ "develop": true,
+ "cms": "contentful",
+ "query": null,
+ "mappings": {
+  "displayName": {
+   "querySource": null,
+   "field": null
+  },
+  "copyright": {
+   "querySource": null,
+   "field": null
+  },
+  "headline": {
+   "querySource": null,
+   "field": null
+  },
+  "displayPhoto": {
+   "querySource": null,
+   "field": null
+  },
+  "socialIcons": {
+   "querySource": null,
+   "field": null
+  },
+  "backgroundImage": {
+   "querySource": null,
+   "field": null
+  }
+ },
+ "styles": null
+}
