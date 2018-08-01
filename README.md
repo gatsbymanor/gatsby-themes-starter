@@ -13,6 +13,10 @@ Your might need to uninstall the official gatsby-cli
 ```sh
 gatsby new gatsby-themes-starter gatsbymanor/gatsby-themes-starter
 ```
+Change to project directory
+```sh
+cd gatsby-themes-starter
+```
 
 ## Run the tutorial
 ```sh
