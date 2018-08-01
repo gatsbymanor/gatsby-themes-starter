@@ -25,9 +25,9 @@
     yargs "^11.1.0"
     yurnalist "^0.2.1"
 
-"@nodox/gatsby@^1.10.1":
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/@nodox/gatsby/-/gatsby-1.10.1.tgz#71f491b05d8810eac3e73345e0b382c8b4a35d8c"
+"@nodox/gatsby@^1.10.4":
+  version "1.10.4"
+  resolved "https://registry.yarnpkg.com/@nodox/gatsby/-/gatsby-1.10.4.tgz#b77577600d54561029bb13ee0e3d0815a90072c4"
   dependencies:
     async "^2.1.2"
     babel-code-frame "^6.22.0"
@@ -171,8 +171,8 @@
     "@types/node" "*"
 
 "@types/history@*", "@types/history@^4.6.2":
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/@types/history/-/history-4.6.2.tgz#12cfaba693ba20f114ed5765467ff25fdf67ddb0"
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.0.tgz#2fac51050c68f7d6f96c5aafc631132522f4aa3f"
 
 "@types/minimatch@*":
   version "3.0.3"
@@ -199,8 +199,8 @@
     "@types/react-router" "*"
 
 "@types/react-router@*":
-  version "4.0.29"
-  resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-4.0.29.tgz#1a906dd99abf21297a5b7cf003d1fd36e7a92069"
+  version "4.0.30"
+  resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-4.0.30.tgz#64bcd886befd1f932779b74d17954adbefb7a3a7"
   dependencies:
     "@types/history" "*"
     "@types/react" "*"
@@ -3649,6 +3649,10 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
+highlight.js@^9.11.0:
+  version "9.12.0"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.12.0.tgz#e6d9dbe57cbefe60751f02af336195870c90c01e"
+
 history@^4.6.2, history@^4.7.2:
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/history/-/history-4.7.2.tgz#22b5c7f31633c5b8021c7f4a8a954ac139ee8d5b"
@@ -6325,6 +6329,12 @@ react-helmet@^5.2.0:
     object-assign "^4.1.1"
     prop-types "^15.5.4"
     react-side-effect "^1.1.0"
+
+react-highlight@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/react-highlight/-/react-highlight-0.12.0.tgz#34de986a0bfdf228904d0c269b69538d95b35802"
+  dependencies:
+    highlight.js "^9.11.0"
 
 react-hot-loader@^3.0.0-beta.6:
   version "3.1.3"
