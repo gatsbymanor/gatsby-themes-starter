@@ -70,13 +70,16 @@ const IndexPage = () => (
 
     <h1>Develop your theme</h1>
     <p>With the initial configuration, you can run the theme in development mode.</p>
-    <p>Kill the process using CTRL-C when finished.</p>
     <p><code>$ gatsby develop --enabled-themes</code></p>
     <p>Your theme should be running on <a href="http://localhost:9000">http://localhost:9000</a>.</p>
+    <p>Kill the process using CTRL-C when finished. You might need to hit this a few times to close the current process.</p>
 
 
     <h1>Add CMS data using GraphQL</h1>
     <p>In the config, update the query and mappings section with your cms data.</p>
+    <p>NOTE: This query will NOT work as its an example. Please supply a valid query for your contetnful data.</p>
+    <p>NOTE: Themes only supports <a href="https://www.contentful.com">Contentful</a>. Please create an account before you proceed.</p>
+
     <pre><code>
       {`
         themesDirectory: themes
@@ -172,7 +175,6 @@ const IndexPage = () => (
     </code></pre>
     <p>The query section takes a multi-line string for your graphql query.</p>
     <p>The mappings section is where we specify what fields from our data will overwrite the theme default values.</p>
-    <p>NOTE: This query will NOT work as its an example. Please supply a valid query for your contetnful data.</p>
     <p>Use CTRL-C to quit the current process.</p>
     <p>Now develop your theme with CMS data.
       <pre><code>$ CONTENTFUL_SPACE_ID=YOUR_SPACE_ID CONTENTFUL_DELIVERY_TOKEN=YOUR_TOKEN gatsby develop --enabled-themes</code></pre>
