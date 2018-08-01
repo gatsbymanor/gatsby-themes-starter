@@ -4,11 +4,12 @@
   "version": "1.0.0",
   "author": "Steven Natera <tektekpush@gmail.com>",
   "dependencies": {
-    "@nodox/gatsby": "^1.10.3",
+    "@nodox/gatsby": "^1.10.4",
     "@nodox/gatsby-cli": "^1.2.3",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-react-helmet": "^2.0.11",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-highlight": "^0.12.0"
   },
   "keywords": [
     "gatsby",

@@ -1,9 +1,9 @@
 themesDirectory: themes
 themes:
   gatsby-theme-identity:
-    build: true
-    develop: true
     cms: contentful
+    develop: true
+    build: true
     query:
     mappings:
       displayName:
