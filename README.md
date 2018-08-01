@@ -9,7 +9,12 @@ npm install --global @nodox/gatsby-cli
 ```
 Your might need to uninstall the official gatsby-cli
 
-## Start the tutorial
+## Start a new project
+```sh
+gatsby new gatsby-themes-starter gatsbymanor/gatsby-themes-starter
+```
+
+## Run the tutorial
 ```sh
 gatsby develop
 ```
