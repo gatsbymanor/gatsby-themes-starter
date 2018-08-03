@@ -16,7 +16,7 @@ const IndexPage = () => (
 
     <h1>Install your first theme</h1>
     <p>Here you add a theme in your themes folder</p>
-    <p><code>$ gatsby new themes/identity gatsbymanor/gatsby-theme-identity</code></p>
+    <p><code>$ gatsby new themes/gatsby-theme-identity gatsbymanor/gatsby-theme-identity</code></p>
 
     <h1>Configure <code>gatsby-themes.yaml</code></h1>
     <p>You need to configure your themes in <code>gatsby-themes.yaml</code> (create this file if not present).</p>
